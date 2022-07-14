@@ -20,7 +20,6 @@
 .img {
   height: 120px;
   width: 210px;
-  background-color: brown;
 }
 
 @media (min-width: 300px) {
@@ -78,12 +77,12 @@
   }
 
   .profile-info p {
-    max-width: 80px;
-    font-size: 14px;
+    max-width: 120px;
+    font-size: 12px;
   }
 
   .profile-info h1 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -98,7 +97,7 @@
   }
 
   .profile-info h1 {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -194,7 +193,7 @@
 
 @media (min-width: 1240px) {
   .img {
-    width: 287px;
+    width: 284px;
     height: 220px;
   }
 
@@ -253,7 +252,7 @@
 
 #float-info {
   position: absolute;
-  top: 193px;
+  top: 207px;
   width: 35px;
   margin-left: 10px;
   background-color: white;
@@ -285,7 +284,7 @@
 
 #float-adress {
   position: absolute;
-  top: 425px;
+  top: 438px;
   background-color: white;
   width: 60px;
 }
@@ -307,9 +306,9 @@
 }
 
 #visited {
-  color: blue;
-  margin: 10px;
-  border-bottom: 1px solid blue;
+  /* color: blue;
+  margin: 10px; */
+  /* border-bottom: 1px solid blue; */
 }
 
 @media (min-width: 990px) {
@@ -344,6 +343,42 @@
 
   #float-adress {
     top: -10px;
+  }
+}
+
+@media (min-width: 470px) {
+  .profile-img {
+    width: 420px;
+  }
+}
+
+@media (min-width: 550px) {
+  .profile-img {
+    width: 500px;
+  }
+}
+
+@media (min-width: 640px) {
+  .profile-img {
+    width: 590px;
+  }
+}
+
+@media (min-width: 740px) {
+  .profile-img {
+    width: 690px;
+  }
+}
+
+@media (min-width: 840px) {
+  .profile-img {
+    width: 790px;
+  }
+}
+
+@media (min-width: 940px) {
+  .profile-img {
+    width: 890px;
   }
 }
 
